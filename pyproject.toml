@@ -1,0 +1,13 @@
+[project]
+name = "schema-gen"
+version = "0.1.0"
+description = "Schema Generator"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.7.1",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313" 
